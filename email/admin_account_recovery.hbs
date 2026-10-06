@@ -1,0 +1,12 @@
+Odzyskiwanie konta przez administratora organizacji {{org_name}}
+<!---------------->
+{{#if reset_password}}
+Hasło główne użytkownika {{user_name}} zostało zmienione.
+{{/if}}
+{{#if reset_2fa}}
+Twoje metody logowania dwuetapowego zostały zresetowane.{{#if fallback_2fa_email}} Logowanie dwuetapowe przez e-mail zostało aktywowane jako metoda zapasowa.{{/if}}
+{{/if}}
+
+Jeśli to żądanie nie zostało zainicjowane przez Ciebie, natychmiast skontaktuj się z administratorem.
+
+{{> email/email_footer_text }}
