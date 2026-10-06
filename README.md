@@ -2,4 +2,4 @@ Polish translation of all email templates from https://github.com/dani-garcia/va
 
 Based on original translation from: https://github.com/olokelo/vaultwarden-lang-pl
 
-Checked and fixed for Vaultwarden Version 2024.6.2 / 1.32.5
+Checked and fixed for Vaultwarden Version 2026.7.0 / 1.37.4
